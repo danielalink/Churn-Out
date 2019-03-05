@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Telemarketer Machine Learning Dashboard
 
-You can use the [editor on GitHub](https://github.com/danielalink/Telemarker_ML_Dashboard/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Churn-Out is a dashboard application to optimize personalized marketing by showing the best way to reduce the churn rate.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+When telemarketer inputs customer ID, it shows the current liklihood of it's termination.
 
-### Markdown
+Along with that, it shows a table of all sorts of scenarios that change a certain aspect from TRUE to FALSE or vise versa.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Saying that the customer changes that certain aspect, it shows the change of probability of churn rate, calculated by machine learning.
 
-```markdown
-Syntax highlighted code block
+### Data
 
-# Header 1
-## Header 2
-### Header 3
+As a sample data, we have used the data from [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn) which came from IBM Sample Data Sets.
 
-- Bulleted
-- List
+Within the data, there are people that already have stoped using the service, and those who still are.
 
-1. Numbered
-2. List
+We wanted to find out the similarity of people who quit, and then see if there are any current customers who share the same aspects with them.
 
-**Bold** and _Italic_ and `Code` text
+### Machine Learning
 
-[Link](url) and ![Image](src)
-```
+We have used LogisticRegression from sklearn to predict where each customers lies by using their categorical variables.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+After we have the current churn rate, we changed each aspects to different state and calculated the difference.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/danielalink/Telemarker_ML_Dashboard/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
