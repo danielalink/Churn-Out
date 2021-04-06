@@ -13,7 +13,7 @@ Along with the current number, it shows a graph of scenarios when a certain aspe
 * For example, when a customer changes their payment method from credit card to bank transfer, the Churn Rate would decrease 15%p.*
 * Therefore, the telemarketer should promote changing the payment method by providing a coupon to the customer.*
 
-![Frontpage](/images/Frontpage.jpg)
+![Frontpage](/image/Frontpage.jpg)
 
 ### Data
 
