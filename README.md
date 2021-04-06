@@ -11,7 +11,7 @@ When telemarketer is connected to a customer, this app would search the customer
 Along with the current number, it shows a graph of scenarios when a certain aspect of a customer changes to another.
 
 * For example, when a customer changes their payment method from credit card to bank transfer, the Churn Rate would decrease 15%p.
-* Therefore, the telemarketer should promote changing the payment method by providing a coupon to the customer.
+* With this information, the telemarketer should promote changing the payment method by providing a coupon to the customer.
 
 ![Frontpage](/image/Frontpage.jpg)
 
